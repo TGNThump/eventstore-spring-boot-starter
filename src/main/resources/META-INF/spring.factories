@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  uk.me.pilgrim.eventstore.EventStoreAutoConfiguration
