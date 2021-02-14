@@ -1,8 +1,11 @@
 name: Maven Release
 
 on:
+  push:
+    tags:
+      - 'v*'
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   build:
